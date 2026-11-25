@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const planesDisponibles = [
+export const planesDisponibles = [
     {id: 1,
         nombre: "Plan pérdida de peso",
         descripcion: "Incluye primera consulta +1 control quincenal + plan alimenticio personalizado + seguimiento por WhatsApp.",

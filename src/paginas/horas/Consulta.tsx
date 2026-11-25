@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const consultasDisponibles = [
+export const consultasDisponibles = [
     {id: 1,
         nombre: "Primera consulta nutricional",
         descripcion: "Evaluación inicial: Anammnesis, antropometria completa y diseño del primer plan alimenticio.",

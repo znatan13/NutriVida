@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const TalleresGrupales = [
+export const TalleresGrupales = [
     {id: 1,
         nombre: "Taller de alimentación saludable",
         descripcion: "Máx. 10 personas. Conceptos básicos de alimentación equilibrada y lectura de etiquetas.",

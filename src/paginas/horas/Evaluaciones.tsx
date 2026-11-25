@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const EvaluacionesDisponibles = [
+export const EvaluacionesDisponibles = [
     {id: 1,
         nombre: "Antropometría completa",
         descripcion: "Peso, talla, IMC, circunferencia de cintura, cadera, brazo y % de grasa corporal y edad metabólica.",

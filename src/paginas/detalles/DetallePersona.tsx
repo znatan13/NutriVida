@@ -1,11 +1,12 @@
 
 import { useNavigate, useParams } from "react-router-dom";
+import BotonEliminar from "../../components/atoms/BotonEliminar";
 import { Trabajadores } from "../Empleados";
 
 function DetalleTrabajadores() {
     const { id } = useParams();
     const navigate = useNavigate();
-
+    const usuario = JSON.parse(localStorage.getItem("usuario") || "null");
     const trabajador = Trabajadores.find(
         (trabajador) => trabajador.id === Number(id)
     );
@@ -36,6 +37,8 @@ function DetalleTrabajadores() {
                 >
                     Tomar Hora
                 </button>
+
+                {usuario?.admin === true && (<BotonEliminar items={ Trabajadores } id={trabajador.id}onEliminado={() => navigate(-1)}/>)}
             </div>
         </div>
     );

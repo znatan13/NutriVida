@@ -13,7 +13,7 @@ export const Trabajadores = [
     {
         id: 2,
         nombre: "Nut. Rodrigo Sepúlveda A.",
-        imagen: "https://media.glamour.mx/photos/65b096f13756393e0200c63d/16:9/w_1920,c_limit/que-significa-tu-foto-de-perfil.jpg",
+        imagen: "",
         especialidad: "Nutrición deportiva y rendimiento",
         dias_horario: "Martes, Jueves, Sábado",
         horario: "09:00 – 14:00"
