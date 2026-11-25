@@ -11,7 +11,7 @@ function Principal() {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img
-                            src={""}
+                            src={imagen1}
                             className="d-block mx-auto rounded img-fluid"
                             alt="Nutrición saludable"
                         />
