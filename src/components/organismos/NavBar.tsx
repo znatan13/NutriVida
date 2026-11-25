@@ -12,12 +12,19 @@ function Navbar() {
                     <Link className="nav-link text-white" to="/">
                     Inicio
                     </Link>
+
                     <Link className="nav-link text-white" to="/horarios">
                     Horarios Disponibles
                     </Link>
+
                     <Link className="nav-link text-white" to="/quienessomos">
                     Quienes somos
                     </Link>
+
+                    <Link className="nav-link text-white" to="/login">
+                    Iniciar sesión
+                    </Link>
+                    
                 </div>
             </div>
         </nav>

@@ -1,8 +1,9 @@
 
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-
 import Navbar from './components/organismos/NavBar'
+import Login from './paginas/login'
+import Registro from './paginas/registrarse'
 import QuienSomos from './paginas/QuienSomos'
 import Principal from './paginas/Principal'
 import DetalleHorarios from './paginas/detalles/DetalleHora'
@@ -17,6 +18,8 @@ function App() {
 
       <Routes>
         <Route path='/' element={<Principal />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/registro" element={<Registro />} />
         <Route path='/horarios' element={<HorariosGenerales />} />
         <Route path='/horario/:tipo/:id' element={<DetalleHorarios />} />
         <Route path='/trabajadores' element={<ListaTrabajadores />} />
